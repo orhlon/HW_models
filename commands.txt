@@ -1,0 +1,6 @@
+from django.contrib.auth.models import User
+from newsportal_apps.models import *
+User.objects.create_user('Dmitri')
+User.objects.create_user('Andre')
+...
+
